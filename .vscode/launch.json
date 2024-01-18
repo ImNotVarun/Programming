@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DivNumbers",
+            "request": "launch",
+            "mainClass": "Java.DivNumbers",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "MulNumbers",
+            "request": "launch",
+            "mainClass": "Java.MulNumbers",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "SubNumbers",
+            "request": "launch",
+            "mainClass": "Java.SubNumbers",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "AddNumbers",
             "request": "launch",
             "mainClass": "Java.AddNumbers",
