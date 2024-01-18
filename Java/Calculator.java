@@ -32,7 +32,18 @@ public class Calculator {
             }
 
             System.out.println("Result: " + result);
+
+            System.out.println("Enter 'c' to continue or 'e' key to exit: ");
+            char choice = scanner.next().charAt(0);
+            if (choice == 'c') {
+                main(args);
+            } else if  (choice == 'e'){
+                System.out.println("Exiting...");
+            } else {
+                System.out.println("Invalid choice");
+            
         }
     }
     
+}
 }

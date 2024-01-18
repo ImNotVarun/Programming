@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Java.Calculator",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "DivNumbers",
             "request": "launch",
             "mainClass": "Java.DivNumbers",
