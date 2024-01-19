@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AreaOfRectangle",
+            "request": "launch",
+            "mainClass": "Java.AreaOfRectangle",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "AreaofCircle",
+            "request": "launch",
+            "mainClass": "Java.AreaofCircle",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "Calculator",
             "request": "launch",
             "mainClass": "Java.Calculator",
