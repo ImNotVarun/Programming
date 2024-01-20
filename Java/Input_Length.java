@@ -1,12 +1,13 @@
-// Write a program that takes a string as input and prints its length to the console.
+// Write a program that takes a string as input from user and prints its length to the console.
 package Java;
 
 public class Input_Length {
     public static void main(String[] args) {
-        String str = "Enter the string";
-        System.out.println(str.length());
-        int len = str.length();
-        System.out.println("The length of the string is " + len);
+        try (java.util.Scanner sc = new java.util.Scanner(System.in)) {
+            System.out.print("Enter a string: ");
+            String str = sc.nextLine();
+            System.out.println("Length of the string is: " + str.length());
+        }
 
     }
 }

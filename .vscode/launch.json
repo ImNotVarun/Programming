@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumbersSUM",
+            "request": "launch",
+            "mainClass": "Java.NumbersSUM",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "Input_Length",
             "request": "launch",
             "mainClass": "Java.Input_Length",
