@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Input_Length",
+            "request": "launch",
+            "mainClass": "Java.Input_Length",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "AreaOfRectangle",
             "request": "launch",
             "mainClass": "Java.AreaOfRectangle",
