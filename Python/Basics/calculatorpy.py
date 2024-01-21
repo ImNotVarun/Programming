@@ -1,11 +1,11 @@
 num1=int(input("enter the first number "))
 num2=int(input("enter the second number"))
 
-opreator=input("enter the oprator")
+Operator=input("enter the operator")
 
-match opreator:
+match Operator:
     case "+":
-        print("Sum of Numers is",num1+num2)
+        print("Sum of Numbers is",num1+num2)
     case "-":
         print("Sub of numbers is ",num1-num2)
     case "/":
@@ -13,4 +13,13 @@ match opreator:
     case "*":
         print("mul of the numbers is ",num1*num2)
     case _ :
-        print("oprator is invalid")
+        print("operator is invalid")
+while True:
+    choice = input("Do you want to continue? (y/n): ")
+    if choice == "y" or choice == "Y":
+        continue
+    elif choice == "n" or choice == "N":
+        print("Thank you for using calculator")
+        break
+    else:
+        print("Invalid choice")
