@@ -1,1 +1,2 @@
-git -c user.useConfigOnly=true commit --quiet
+git -c user.useConfigOnly=true commit --quiet && git push
+
