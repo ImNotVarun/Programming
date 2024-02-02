@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "Java.hello",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "java.HelloWorld",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "NumbersSUM",
             "request": "launch",
             "mainClass": "Java.NumbersSUM",
