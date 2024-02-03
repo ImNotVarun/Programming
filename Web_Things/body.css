@@ -1,6 +1,22 @@
 
-h2 {
+h1 {
   text-align: center;
+  font-size: 5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration : underline;
+  font-family: "times new roman";
+}
+h2 {
+  color: aqua;
+  text-align: left;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h3 {
+  color: rgb(55, 255, 0);
+  text-align: left;
   font-size: 1.5em;
   margin-top: 20px;
   margin-bottom: 20px;
