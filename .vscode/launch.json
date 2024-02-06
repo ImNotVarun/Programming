@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "java",
+            "request": "launch",
+            "mainClass": "com.example.java.java",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "java",
+            "request": "launch",
+            "mainClass": "java.java",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "hello",
             "request": "launch",
             "mainClass": "Java.hello",
