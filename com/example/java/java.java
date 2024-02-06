@@ -1,11 +1,10 @@
 package com.example.java;
 
 import java.util.Scanner;
-                                                                   /* calculator without using any if-else statements */
+                                                    /* calculator without using any if-else statements */
 
 // public class java {
 //     static Scanner sc = new Scanner(System.in);
-
 //     public static void main(String[] args) {
 //         System.out.print("Enter the first number ");
 //         int n = sc.nextInt();
@@ -20,7 +19,7 @@ import java.util.Scanner;
 // }
 
 
-                                                        /* calculator in float form */
+                                                    /* calculator in float form */
 
 // public class java {
 //     static Scanner sc = new Scanner(System.in);
@@ -37,16 +36,32 @@ import java.util.Scanner;
 //     }}
 
                                                     /* printing sunday if day 7 is sunday */
+
+// public class java {
+//     static Scanner sc = new Scanner(System.in);
+//     public static void main(String[] args) {
+//         System.out.println("Enter the day number ");
+//         int a = sc.nextInt();
+//         if (a==7){
+//             System.out.println("Sunday");
+//         }
+//         else{
+//             System.out.println("Not Sunday");
+//         }
+//     }
+// }
+
+                                                    /* printing even or odd*/
 public class java {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        System.out.println("Enter the day number ");
+        System.out.println("Enter the number ");
         int a = sc.nextInt();
-        if (a==7){
-            System.out.println("Sunday");
+        if (a%2==0){
+            System.out.println("Even");
         }
         else{
-            System.out.println("Not Sunday");
+            System.out.println("Odd");
         }
     }
 }
