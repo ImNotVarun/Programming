@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "report",
+            "request": "launch",
+            "mainClass": "Java.report",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "report",
+            "request": "launch",
+            "mainClass": "report.report",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "report",
+            "request": "launch",
+            "mainClass": "java.report",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "cbse_report",
+            "request": "launch",
+            "mainClass": "java.cbse_report",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "java",
             "request": "launch",
             "mainClass": "com.example.java.java",
