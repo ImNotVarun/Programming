@@ -19,5 +19,5 @@ public class report {
             int per=((a+CN+CC+L+J)*100)/500;
             System.out.println("The percentage of the student is :"+per);
         }
-        }
-        }
+    }
+}

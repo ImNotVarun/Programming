@@ -51,17 +51,57 @@ import java.util.Scanner;
 //     }
 // }
 
-                                                    /* printing even or odd*/
+                                                    /* printing even or odd */
+// public class java {
+//     static Scanner sc = new Scanner(System.in);
+//     public static void main(String[] args) {
+//         System.out.println("Enter the number ");
+//         int a = sc.nextInt();
+//         if (a%2==0){
+//             if (a==0)
+//             {
+//                 System.out.println("The input number is zero");
+//             }
+//             else {
+//                 System.out.println("Odd");
+//                 }
+//             }
+//             System.out.println("Even");
+//         }
+//     }
+
 public class java {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        System.out.println("Enter the number ");
+        System.out.println("                                    TAKING INPUT AS NUMBER TO SHOW THE DAY NAME ");
+        System.out.print ("                Enter the day number  : ");
         int a = sc.nextInt();
-        if (a%2==0){
-            System.out.println("Even");
+        switch (a)
+        {
+            case 1:
+                System.out.println("       Monday");
+                break;
+            case 2:
+                System.out.println("       Tuesday");
+                break;
+            case 3:
+            System.out.println("           Wednesday");
+            break;
+            case 4:
+            System.out.println("           Thursday");
+            break;
+            case 5:
+            System.out.println("           Friday");
+            break;
+            case 6:
+            System.out.println("           Saturday");
+            break;
+            case 7:
+            System.out.println("           Sunday");
+            break;
+            default:
+            System.out.println("           Invalid input");
         }
-        else{
-            System.out.println("Odd");
-        }
+
     }
 }
