@@ -1,4 +1,4 @@
-package com.example.java;
+package java;
 
 import java.util.Scanner;
                                                     /* calculator without using any if-else statements */

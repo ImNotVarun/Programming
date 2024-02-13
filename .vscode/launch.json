@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "student",
+            "request": "launch",
+            "mainClass": "com.example.student",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "student",
+            "request": "launch",
+            "mainClass": "java.student",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "report",
             "request": "launch",
             "mainClass": "Java.report",
