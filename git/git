@@ -1,3 +1,0 @@
-git -c user.useConfigOnly=true commit --quiet && git push
-
-git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - -S "#Muthilalsamay69"
