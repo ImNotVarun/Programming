@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sum_nth_number",
+            "request": "launch",
+            "mainClass": "Project_File_Java.sum_nth_number",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "advance_calculator",
             "request": "launch",
             "mainClass": "Project_File_Java.advance_calculator",
