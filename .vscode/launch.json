@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "even_odd_sum",
+            "request": "launch",
+            "mainClass": "Project_File_Java.even_odd_sum",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "sum_of_even_odd_nth_number_seprately",
             "request": "launch",
             "mainClass": "Project_File_Java.sum_of_even_odd_nth_number_seprately",
