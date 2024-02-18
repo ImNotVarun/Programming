@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "advance_calculator",
+            "request": "launch",
+            "mainClass": "Project_File_Java.advance_calculator",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "even_odd",
+            "request": "launch",
+            "mainClass": "Project_File_Java.even_odd",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "greatest",
+            "request": "launch",
+            "mainClass": "Project_File_Java.greatest",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "positive_negative",
+            "request": "launch",
+            "mainClass": "Project_File_Java.positive_negative",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "calculator",
+            "request": "launch",
+            "mainClass": "Project_File_Java.calculator",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "helloworld",
+            "request": "launch",
+            "mainClass": "Project_File_Java.helloworld",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "myclass",
+            "request": "launch",
+            "mainClass": "java.myclass",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "student",
             "request": "launch",
             "mainClass": "com.example.student",
