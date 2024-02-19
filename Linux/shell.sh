@@ -37,11 +37,31 @@
 # fi
 
 #the user for two numbers and then determine and print the larger of the two numbers.
-echo enter the number
-read num
-echo enter the second number
-read num2
-if (($num>$num2))
-then echo The largest numbers is $num
-else echo The largest numbers is $num2
-fi
+# echo enter the number
+# read num
+# echo enter the second number
+# read num2
+# if (($num>$num2))
+# then echo The largest numbers is $num
+# else echo The largest numbers is $num2
+# fi
+
+# switch statement in bash
+echo enter the Input
+read Input
+case $Input in
+"orange")
+echo "this is orange "
+;;
+"apple")
+echo "this is apple"
+;;
+"bananna")
+echo "this is banana"
+;;
+*)
+echo "invalid"
+;;
+esac
+
+#
