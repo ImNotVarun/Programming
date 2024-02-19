@@ -47,21 +47,22 @@
 # fi
 
 # switch statement in bash
-echo enter the Input
-read Input
-case $Input in
-"orange")
-echo "this is orange "
-;;
-"apple")
-echo "this is apple"
-;;
-"bananna")
-echo "this is banana"
-;;
-*)
-echo "invalid"
-;;
-esac
+# echo enter the Input
+# read Input
+# case $Input in
+# "orange")
+# echo "this is orange "
+# ;;
+# "apple")
+# echo "this is apple"
+# ;;
+# "bananna")
+# echo "this is banana"
+# ;;
+# *)
+# echo "invalid"
+# ;;
+# esac
+string str="hello"
+-z $str
 
-#
