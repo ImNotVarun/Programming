@@ -63,6 +63,5 @@
 # echo "invalid"
 # ;;
 # esac
-string str="hello"
--z $str
+
 
