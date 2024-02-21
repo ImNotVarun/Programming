@@ -2,7 +2,7 @@ package Project_File_Java;
 import java.util.Scanner;
 
 @SuppressWarnings("unused")
-public class calculator {
+public class operators {
     public static void main(String[] args) {
         System.out.println("program to perform various opreators in java");
         int a = 2;
