@@ -1,4 +1,4 @@
-package Project_File_Java;
+package Project_File_Java.Simple_java;
 import java.util.Scanner;
 public class sum_of_even_odd_nth_number_seprately {
     public static void main(String[] args) {
