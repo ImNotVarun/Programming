@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "constructor",
+            "request": "launch",
+            "mainClass": "Project_File_Java.Java_classes.constructor",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "armstrong",
             "request": "launch",
             "mainClass": "Project_File_Java.Java_number.armstrong",
