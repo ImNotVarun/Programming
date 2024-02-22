@@ -40,11 +40,6 @@ public class even_odd_sum {
                 
             }
             System.out.println("The Sum of these are \n"+sum);
-            
-            
-            
-            
-
         }
     }
 }

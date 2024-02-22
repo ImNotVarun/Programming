@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "FileUploader",
+    "version": "1.0",
+    "description": "Upload files to ChatGPT",
+    "permissions": ["storage", "fileSystem"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
