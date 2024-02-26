@@ -1,7 +1,7 @@
 #!/bin/bash
 echo hello world
-pwd 
+pwd
 
-ls 
+ls
 ls -l
 touch newfile
