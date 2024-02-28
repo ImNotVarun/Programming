@@ -1,0 +1,7 @@
+Boujor World
+output.txt
+shell.sh
+total 8
+-rw-r--r-- 1 varun varun 33 Feb 24 18:25 output.txt
+-rwxr-xr-x 1 varun varun 47 Feb 24 18:24 shell.sh
+/home/varun/linux
