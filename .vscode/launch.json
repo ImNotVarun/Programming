@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "count_constructor",
+            "request": "launch",
+            "mainClass": "Project_File_Java.Java_classes.count_constructor",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
+            "name": "even_odd",
+            "request": "launch",
+            "mainClass": "Project_File_Java.Simple_java.even_odd",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "constructor",
             "request": "launch",
             "mainClass": "Project_File_Java.Java_classes.constructor",
