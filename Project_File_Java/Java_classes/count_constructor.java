@@ -2,7 +2,7 @@ package Project_File_Java.Java_classes;
 
 public class count_constructor {
     private static final String Varun = "default value";
-    private String name;
+    String name;
     private int age;
 
     public count_constructor(String name, int age) {
