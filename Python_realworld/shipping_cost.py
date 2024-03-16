@@ -4,13 +4,14 @@ If the weight is greater than 2 kg but less than or equal to 8 kg, the shipping 
 If the weight is greater than 8 kg but less than or equal to 15 kg, the shipping cost is $12.99.
 If the weight is greater than 15 kg, the shipping cost is $19.99.'''
 
-weight=float(input("Enter the total weight of the shipping :"))
+weight = float(input("Enter the total weight of the shipping :"))
 
-if (weight<=2):
-    print("Total cost will be $4.99")
-elif (weight>=2 and weight<=8):
-    print("the total cost will be $8.99")
-elif (weight>=8 and weight<=15):
-    print("Total cost will be $12.99")
+if weight <= 2:
+    cost = 4.99
+elif weight <= 8:
+    cost = 8.99
+elif (weight <= 15):
+    cost = 12.99
 else:
-    print("The total cost will be $19.99")
+    cost = 19.99
+print("The cost will be $", cost)
