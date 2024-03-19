@@ -59,8 +59,56 @@ public class Main {
     // }
 
     // GUI application
-    public static void main(String[] args) {
-        String name = JOptionPane.showInputDialog("enter your name ");
+    // public static void main(String[] args) {
+    // String name = JOptionPane.showInputDialog("enter your name ");
 
+    // }
+    // }
+
+    // public static void main(String[] args) {
+    // double a = 1.46;
+    // double b = 9;
+    // double z = Math.max(a, b);
+    // double v = Math.min(a, b);
+    // double c = Math.abs(b);
+    // double s = Math.sqrt(b);
+    // System.out.println(z);
+    // System.out.println(v);
+    // System.out.println(c);
+    // System.out.println(s);
+    // }
+    // }
+    // triangle
+    // public static void main(String[] args) {
+    // try (Scanner a = new Scanner(System.in)) {
+    // System.out.println("Enter the base of the trianle");
+    // int base = a.nextInt();
+    // System.out.println("enter the height");
+    // int height = a.nextInt();
+    // double hy = Math.sqrt(((base * base) + (height * height)));
+    // System.out.println("The hypotinius of the triangle will be :" + hy);
+    // }
+
+    // }
+    // }
+
+    public static void main(String[] args) {
+        String day = "Pizza";
+        switch (day) {
+            case "sunday":
+                System.out.println("it is sunday");
+                break;
+            case "monday":
+                System.out.println("it is monday");
+                break;
+            case "tueday":
+                System.out.println("It is tuesday");
+                break;
+            case "Friday":
+                System.out.println("it is friday");
+                break;
+            default:
+                System.out.println("that is not a day");
+        }
     }
 }
