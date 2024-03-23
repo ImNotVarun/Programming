@@ -93,7 +93,7 @@ public class Main {
     // }
 
     public static void main(String[] args) {
-        String day = "Pizza";
+        String day = "mon";
         switch (day) {
             case "sunday":
                 System.out.println("it is sunday");
