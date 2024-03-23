@@ -20,9 +20,12 @@ dic = {
         "python": 21
     }
 }
+
 print(dic)  # print entire dictionary
 print(dic["subjects"])  # print the subjects name and marks
 # it will print the marks in the python subject
 print(dic["subjects"]["python"])
 dic["section"] = "B"
+print(dic)
+dic["surname"] = "Panchal"
 print(dic)
