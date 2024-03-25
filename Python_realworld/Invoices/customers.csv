@@ -1,0 +1,4 @@
+customer_id, name, email, amount_due, due_date
+001, Varun, Varun@example.com, 150.00, 2023-10-05
+002, samay, samay@example.com, 200.00, 2023-10-12
+003, raina, raina@example.com, 100.00, 2023-10-19
