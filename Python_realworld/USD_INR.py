@@ -1,23 +1,31 @@
 
 def INR_to_USD():
-    INR = int(input("Enter Rupees"))
+    INR = int(input("Enter Rupees :"))
     USD = INR/83
-    print("Rupees in Dollar :", float(USD), "$")
+    print("Rupees in Dollar :", int(USD), "$")
 
 
 def USD_to_INR():
-    USD = int(input("Enter in DOllar"))
+    USD = int(input("Enter in Dollar :"))
     INR = USD*83
-    print("DOllar in Rupees :", float(INR), "₹")
-
-    print("What you wanna do")
+    print("Dollar in Rupees :", int(INR), "₹")
 
 
-IN = int(input("1. INR to USD\n" "2. USD to INR\n"))
+print("What you wanna do")
 
-match (IN):
-    case (1):
-        INR_to_USD()
+while True:
+    IN = int(input("1. INR to USD\n" "2. USD to INR\n"))
 
-    case (2):
-        USD_to_INR()
+    match (IN):
+        case (1):
+            INR_to_USD()
+
+        case (2):
+            USD_to_INR()
+    INPUT = input("Do you want to continue Y/N :").capitalize()
+    if (INPUT == "Y"):
+        continue
+
+    else:
+        print("Thanks for using our service")
+        break
