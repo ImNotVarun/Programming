@@ -6,3 +6,6 @@ with open('D:\Compiling_Coding\Programming\Python_realworld\Invoices\customers.c
     reader = csv.DictReader(csvfile)
     for row in reader:
         print(row)
+
+f = open('C:\Comipling_Codes\Compiling_Coding\Programming\Python_realworld\Invoices\customers.csv', "+r")
+print(f.read())
