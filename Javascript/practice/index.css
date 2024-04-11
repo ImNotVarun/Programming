@@ -1,0 +1,33 @@
+h1 {
+    font-family: Bungee Spice;
+    text-align: center;
+}
+
+.userData {
+    font-family: Bungee Spice;
+    text-align: center;
+
+}
+
+.name {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    ;
+
+
+}
+
+.submit {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #6420AA;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    margin: 10px;
+
+    ;
+}
