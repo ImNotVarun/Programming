@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #7c7777;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #b95555;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #b95555;
+    margin-top: 20px;
+    animation: circle-animation 2s infinite alternate;
+}
