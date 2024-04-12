@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(#BC7FCD, #FB9AD1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #86469C;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+#RandomNum {
+
+    text-align: center;
+    background-color: #FC819E;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    align-content: center;
+    width: 70%;
+    margin: 40px auto 0 auto;
+
+}
+
+button {
+    border-radius: 10px;
+    font-size: 1.3rem;
+    width: 100px;
+    padding: 10px;
+    margin: 50px auto;
+    background-color: #FFCDEA;
+    border: none;
+    color: black;
+    transition: background-color 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: #FEC7B4;
+}
+
+#num1,
+#num2 {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+
+}
+
+input {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    #RandomNum {
+        width: 90%;
+    }
+}

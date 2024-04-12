@@ -86,12 +86,12 @@
 
 // console.log(x, typeof x, y, typeof y, z, typeof z);
 
-//todo using const to find the radius of a circle
+// //todo using const to find the radius of a circle
 
-const pi = 3.14159;
-let radius;
-let circumference;
+// const pi = 3.14159;
+// let radius;
+// let circumference;
 
-radius = Number(window.prompt("Enter the radius of a circle"));
-circumference = 2 * pi * radius;
-console.log(circumference);
+// radius = Number(window.prompt("Enter the radius of a circle"));
+// circumference = 2 * pi * radius;
+// console.log(circumference);
