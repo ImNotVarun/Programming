@@ -95,3 +95,15 @@
 // radius = Number(window.prompt("Enter the radius of a circle"));
 // circumference = 2 * pi * radius;
 // console.log(circumference);
+
+
+//! If statements 
+
+let name = window.prompt("What is your name?");
+
+if (name == "varun") {
+    document.getElementById("h3").textContent = "Hello, Varun!";
+} else {
+    document.getElementById("h3").textContent = "Hello, stranger!";
+
+}
