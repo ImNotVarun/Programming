@@ -81,3 +81,29 @@ p {
     color: #000000;
     transition: background-color 0.3s ease;
 }
+
+@media screen and (max-width: 600px) {
+
+    /* Adjust styles for smaller screens */
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .email-input {
+        width: 100%;
+    }
+}
