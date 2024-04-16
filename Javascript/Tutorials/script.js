@@ -97,13 +97,13 @@
 // console.log(circumference);
 
 
-//! If statements 
+// //! If statements
 
-let name = window.prompt("What is your name?");
+// let name = window.prompt("What is your name?");
 
-if (name == "varun") {
-    document.getElementById("h3").textContent = "Hello, Varun!";
-} else {
-    document.getElementById("h3").textContent = "Hello, stranger!";
+// if (name == "varun") {
+//     document.getElementById("h3").textContent = "Hello, Varun!";
+// } else {
+//     document.getElementById("h3").textContent = "Hello, stranger!";
 
-}
+// }

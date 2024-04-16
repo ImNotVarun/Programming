@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News-Letter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Welcome to our News-Letter!</h1>
+    <h2>Sign up to receive our latest news and updates.</h2>
+    <div class="radio-buttons">
+        <label for="email" class="email-label">Enter your email :</label><br><br>
+        <div class="email-input-container">
+            <input type="email" id="email" class="email-input">
+        </div><br><br>
+        <input type="checkbox" id="box">
+        <label for="checkbox">Can we collect Anonymous Data</label><br><br>
+        <input type="radio" id="promotions" name="subscriptionType">
+        <label for="promotions">Want to receive promotional emails?</label> <br> <br>
+        <input type="radio" id="updates" name="subscriptionType2">
+        <label for="updates">Want to receive updates on our products and services?</label><br> <br>
+    </div>
+
+    <button id="submit">Sign up now!</button>
+
+    <div class="success-message">
+        <h3 id="success-message"></h3>
+        <p id="para"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
