@@ -107,3 +107,23 @@
 //     document.getElementById("h3").textContent = "Hello, stranger!";
 
 // }
+
+// //! ternary statements
+
+// let age = 12;
+// message = age >= 18 ? `you are an adult ` : `you are a child `;
+// console.log(message);
+
+// // todo example
+
+// let purchase = 10;
+// message = purchase >= 100 ? `you get a 10% discount ` : `For eligible for discount you need at least 100rs of shopping`
+// console.log(message)
+
+// //! method chaning method
+
+
+// let username = window.prompt(`What is your username :`);
+
+// username = username.trim().charAt(0).toUpperCase() + username.slice(1,).toLowerCase();
+// console.log(username);
