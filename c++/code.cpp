@@ -4,10 +4,17 @@ using namespace std;
 
 int age_verification();
 int loops();
+int pattern();
+int nth();
+int fac();
+
 int main()
 {
     // age_verification();
-    loops();
+    // loops();
+    // pattern();
+    // nth();
+    fac();
     return 0;
 }
 
@@ -64,5 +71,75 @@ int loops()
         sum = i + sum;
     }
     cout << sum << endl;
+    return 0;
+}
+
+//! printing pattern questions
+
+int pattern()
+{
+    int row;
+    int col;
+
+    // printing only *
+    cout << "Enter Rows" << endl;
+    cin >> row;
+    for (int i = 0; i < row; i++)
+    {
+        cout << "*";
+    }
+
+    // printing rows and coloums
+    cout << "Enter Rows" << endl;
+    cin >> row;
+    cout << "Enter col" << endl;
+    cin >> col;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+//! sum of all number up to nth which is divisible by 3
+
+int nth()
+{
+    int num;
+    int sum = 0;
+    cout << "Enter a number " << endl;
+    cin >> num;
+    for (int i = 1; i <= num; i++)
+    {
+        cout << i << endl;
+        if (i % 3 == 0)
+        {
+            sum = sum + i;
+        }
+    }
+    cout << sum << endl;
+
+    return 0;
+}
+
+//! factorial of a Number only for small numbers
+int fac()
+{
+
+    int num;
+    int fac = 1;
+    cout << "Enter a number " << endl;
+    cin >> num;
+    for (int i = 1; i <= num; i++)
+    {
+        fac = fac * i;
+    }
+    cout << fac << endl;
+
     return 0;
 }
