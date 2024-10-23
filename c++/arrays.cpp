@@ -8,18 +8,30 @@ using namespace std;
 //     cout << "Enter value for b" << endl;
 //     cin >> b;
 // }
-int linear(int marks[], int size, int target)
-{
-    for (int i = 0; i < size; i++)
-    {
-        if (marks[i] == target)
-        {
-            return i;
-        }
-    }
-    return -1;
-}
 
+// int linear(int marks[], int size, int target)
+// {
+//     for (int i = 0; i < size; i++)
+//     {
+//         if (marks[i] == target)
+//         {
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
+int reverce(int arr[], int size)
+{
+    int start = 0;
+    int end = size - 1;
+    while (start <= end)
+    {
+        swap(arr[start], arr[end]);
+        start++;
+        end--;
+    }
+    return 0;
+}
 int main()
 {
     // int marks[] = {};
@@ -102,19 +114,28 @@ int main()
     // cout << sum << endl;
 
     //! linear search example
-    int marks[] = {32, 23, 345, 45, 232, 12};
-    int size = sizeof(marks) / sizeof(marks[0]);
-    int target = 345;
-    int index = linear(marks, size, target);
-    if (index == -1)
-    {
+    // int marks[] = {32, 23, 345, 45, 232, 12};
+    // int size = sizeof(marks) / sizeof(marks[0]);
+    // int target = 345;
+    // int index = linear(marks, size, target);
+    // if (index == -1)
+    // {
 
-        cout << "NO value found" << endl;
-    }
-    else
-    {
-        cout << "Value Found on " << index;
-    }
+    //     cout << "NO value found" << endl;
+    // }
+    // else
+    // {
+    //     cout << "Value Found on " << index;
+    // }
 
+    //! reverce of an array using pointer linear search
+
+    int arr[] = {1, 2, 3, 4, 5};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int string_reverce = reverce(arr, size);
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
     return 0;
 }
