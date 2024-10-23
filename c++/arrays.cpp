@@ -1,25 +1,24 @@
 #include <iostream>
 using namespace std;
-// void hello(int &a, int &b);
-// void hello(int &a, int &b)
-// {
-//     cout << "Enter value for a " << endl;
-//     cin >> a;
-//     cout << "Enter value for b" << endl;
-//     cin >> b;
-// }
+void hello(int &a, int &b)
+{
+    cout << "Enter value for a " << endl;
+    cin >> a;
+    cout << "Enter value for b" << endl;
+    cin >> b;
+}
 
-// int linear(int marks[], int size, int target)
-// {
-//     for (int i = 0; i < size; i++)
-//     {
-//         if (marks[i] == target)
-//         {
-//             return i;
-//         }
-//     }
-//     return -1;
-// }
+int linear(int marks[], int size, int target)
+{
+    for (int i = 0; i < size; i++)
+    {
+        if (marks[i] == target)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
 int reverce(int arr[], int size)
 {
     int start = 0;
@@ -32,6 +31,7 @@ int reverce(int arr[], int size)
     }
     return 0;
 }
+
 int main()
 {
     // int marks[] = {};
@@ -130,12 +130,62 @@ int main()
 
     //! reverce of an array using pointer linear search
 
+    // int arr[] = {1, 2, 3, 4, 5};
+    // int size = sizeof(arr) / sizeof(arr[0]);
+    // int string_reverce = reverce(arr, size);
+    // for (int i = 0; i < size; i++)
+    // {
+    //     cout << arr[i] << " ";
+    // }
+
+    //! sum and product of an array
+    // int arr[] = {1, 2, 3, 4, 5};
+    // int sum = 0;
+    // int pro = 1;
+    // for (int i = 0; i < size; i++)
+    // {
+    //     sum = sum + i;
+    //     pro = pro * arr[i];
+    // }
+    // cout << "Sum of the array is :" << sum << endl;
+    // cout << "Product of the array is :" << pro << endl;
+
+    //! swaping the maximum and minimum number from an array
     int arr[] = {1, 2, 3, 4, 5};
     int size = sizeof(arr) / sizeof(arr[0]);
-    int string_reverce = reverce(arr, size);
+    int start = 0;
+    int end = size - 1;
+    int smallest = INT8_MAX;
+    int maximum = INT8_MIN;
+    // finding the maximum and minimum
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] > maximum)
+        {
+            maximum = arr[i];
+        }
+        if (arr[i] < smallest)
+        {
+            smallest = arr[i];
+        }
+    }
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] == maximum)
+        {
+            arr[i] = smallest;
+        }
+        else if (arr[i] == smallest)
+        {
+            arr[i] = maximum;
+        }
+    }
     for (int i = 0; i < size; i++)
     {
         cout << arr[i] << " ";
     }
+    cout << "Maximum will be :" << maximum << endl;
+    cout << "Smallest will be :" << smallest << endl;
+
     return 0;
 }
