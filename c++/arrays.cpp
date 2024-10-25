@@ -151,41 +151,81 @@ int main()
     // cout << "Product of the array is :" << pro << endl;
 
     //! swaping the maximum and minimum number from an array
-    int arr[] = {1, 2, 3, 4, 5};
+    // int arr[] = {1, 2, 3, 4, 5};
+    // int size = sizeof(arr) / sizeof(arr[0]);
+    // int start = 0;
+    // int end = size - 1;
+    // int smallest = INT8_MAX;
+    // int maximum = INT8_MIN;
+    // // finding the maximum and minimum
+    // for (int i = 0; i < size; i++)
+    // {
+    //     if (arr[i] > maximum)
+    //     {
+    //         maximum = arr[i];
+    //     }
+    //     if (arr[i] < smallest)
+    //     {
+    //         smallest = arr[i];
+    //     }
+    // }
+    // for (int i = 0; i < size; i++)
+    // {
+    //     if (arr[i] == maximum)
+    //     {
+    //         arr[i] = smallest;
+    //     }
+    //     else if (arr[i] == smallest)
+    //     {
+    //         arr[i] = maximum;
+    //     }
+    // }
+    // for (int i = 0; i < size; i++)
+    // {
+    //     cout << arr[i] << " ";
+    // }
+    // cout << "Maximum will be :" << maximum << endl;
+    // cout << "Smallest will be :" << smallest << endl;
+
+    //! printing a unique valur from the array
+    // int arr[] = {1, 2, 3, 1, 2, 3, 4};
+    // int size = sizeof(arr) / sizeof(arr[0]);
+    // for (int i = 0; i < size; i++)
+    // {
+    //     int count = 0;
+    //     for (int j = 0; j < size; j++)
+    //     {
+    //         if (arr[i] == arr[j])
+    //         {
+    //             count++;
+    //         }
+    //     }
+    //     if (count == 1)
+    //     {
+    //         cout << "Unique Value is :" << arr[i] << endl;
+    //     }
+    // }
+
+    //! print intersection of 2 arrays
+    int arr[] = {1, 2, 3, 4};
+    int arr2[] = {3, 4, 4, 5, 6};
     int size = sizeof(arr) / sizeof(arr[0]);
-    int start = 0;
-    int end = size - 1;
-    int smallest = INT8_MAX;
-    int maximum = INT8_MIN;
-    // finding the maximum and minimum
+    int size2 = sizeof(arr2) / sizeof(arr2[0]);
     for (int i = 0; i < size; i++)
     {
-        if (arr[i] > maximum)
+        int count = 0;
+        for (int j = 0; j < size2; j++)
         {
-            maximum = arr[i];
+            if (arr[i] == arr2[j])
+            {
+                count++;
+            }
         }
-        if (arr[i] < smallest)
+        if (count >= 1)
         {
-            smallest = arr[i];
-        }
-    }
-    for (int i = 0; i < size; i++)
-    {
-        if (arr[i] == maximum)
-        {
-            arr[i] = smallest;
-        }
-        else if (arr[i] == smallest)
-        {
-            arr[i] = maximum;
+            cout << arr[i] << endl;
         }
     }
-    for (int i = 0; i < size; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << "Maximum will be :" << maximum << endl;
-    cout << "Smallest will be :" << smallest << endl;
 
     return 0;
 }

@@ -1,6 +1,10 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
     }
 }
