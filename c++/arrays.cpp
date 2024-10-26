@@ -207,25 +207,27 @@ int main()
     // }
 
     //! print intersection of 2 arrays
-    int arr[] = {1, 2, 3, 4};
-    int arr2[] = {3, 4, 4, 5, 6};
-    int size = sizeof(arr) / sizeof(arr[0]);
-    int size2 = sizeof(arr2) / sizeof(arr2[0]);
-    for (int i = 0; i < size; i++)
-    {
-        int count = 0;
-        for (int j = 0; j < size2; j++)
-        {
-            if (arr[i] == arr2[j])
-            {
-                count++;
-            }
-        }
-        if (count >= 1)
-        {
-            cout << arr[i] << endl;
-        }
-    }
+    // int arr[] = {1, 2, 3, 4};
+    // int arr2[] = {3, 4, 4, 5, 6};
+    // int size = sizeof(arr) / sizeof(arr[0]);
+    // int size2 = sizeof(arr2) / sizeof(arr2[0]);
+    // for (int i = 0; i < size; i++)
+    // {
+    //     int count = 0;
+    //     for (int j = 0; j < size2; j++)
+    //     {
+    //         if (arr[i] == arr2[j])
+    //         {
+    //             count++;
+    //         }
+    //     }
+    //     if (count >= 1)
+    //     {
+    //         cout << arr[i] << endl;
+    //     }
+    // }
+
+
 
     return 0;
 }

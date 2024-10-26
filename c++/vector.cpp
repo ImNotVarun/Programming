@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -47,18 +48,56 @@ int main()
     // return ans;
 
     //! subarrays
-    int arr[5] = {1, 2, 3, 4, 5};
-    int size = 5;
+    // int arr[5] = {1, 2, 3, 4, 5};
+    // int size = 5;
+    // for (int i = 0; i < size; i++)
+    // {
+    //     for (int j = i; j < size; j++)
+    //     {
+    //         for (int k = i; k <= j; k++)
+    //         {
+    //             cout << arr[i];
+    //         }
+    //         cout << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    //! finding duplicates and removing them
+    // vector<int> arr = {0, 0, 0, 0, 0};
+
+    // for (int i = 0; i < arr.size(); i++)
+    // {
+    //     for (int j = 0; j < arr.size();)
+    //     {
+    //         if (arr[i] == arr[j] && i != j)
+    //         {
+    //             arr.erase(arr.begin() + j);
+    //         }
+    //         else
+    //         {
+    //             j++;
+    //         }
+    //     }
+    // }
+    // for (int i = 0; i < arr.size(); i++)
+    // {
+    //     cout << arr[i] << endl;
+    // }
+
+    //! kadane's algo
+    int arr[] = {3, -4, 5, 4, -1, 7, -8};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int CM = 0;
+    int MS = INT8_MIN;
     for (int i = 0; i < size; i++)
     {
-        for (int j = i; j < size; j++)
+        CM = arr[i];
+        MS = max(CM, MS);
+        if (CM < 0)
         {
-            for (int k = i; k <= j; k++)
-            {
-                cout << arr[i];
-            }
-            cout << " ";
+            CM = 0;
         }
-        cout << endl;
     }
+        cout << MS;
 }
