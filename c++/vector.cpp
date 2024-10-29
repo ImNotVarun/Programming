@@ -5,6 +5,31 @@ using namespace std;
 
 int main()
 {
+    vector<int> nums={1};
+    int target = 8;
+    int st = 0, en = nums.size() - 1;
+    vector<int> ans;
+    for (int i = 0; i < nums.size(); i++)
+    {
+        if (nums[i] == target)
+        {
+            ans.push_back(i);
+            break;
+        }
+    }
+                
+
+    for (int j = en; j > 0; j--)
+    {
+        if (nums[j] == target)
+        {
+            ans.push_back(j);
+            break;
+        }
+    }
+    
+    return 0;
+}
 
     // vector<int> vec = {1, 2, 3, 4, 5}; //* vector delcleration
     // vec.push_back(3);                  //! adding a value to the vector
@@ -86,18 +111,70 @@ int main()
     // }
 
     //! kadane's algo
-    int arr[] = {3, -4, 5, 4, -1, 7, -8};
-    int size = sizeof(arr) / sizeof(arr[0]);
-    int CM = 0;
-    int MS = INT8_MIN;
-    for (int i = 0; i < size; i++)
-    {
-        CM = arr[i];
-        MS = max(CM, MS);
-        if (CM < 0)
-        {
-            CM = 0;
+    // int arr[] = {3, -4, 5, 4, -1, 7, -8};
+    // int size = sizeof(arr) / sizeof(arr[0]);
+    // int CM = 0;
+    // int MS = INT8_MIN;
+    // for (int i = 0; i < size; i++)
+    // {
+    //     CM = arr[i];
+    //     MS = max(CM, MS);
+    //     if (CM < 0)
+    //     {
+    //         CM = 0;
+    //     }
+    // }
+    //     cout << MS;
+
+    // vector<int> nums1 = {1, 2, 3, 4};
+    // vector<int> nums2 = {2, 3};
+    // vector<int> duplicates;
+    // for (int i = 0; i < nums1.size(); i++)
+    // {
+    //     int count = 0;
+    //     for (int j = 0; j < nums2.size(); j++)
+    //     {
+    //         if (nums1[i] == nums2[j])
+    //         {
+    //             count++;
+    //         }
+    //     }
+    //     if (count > 1)
+    //     {
+    //         duplicates.push_back(i);
+    //     }
+    // }
+    // for (int k = 0; k < duplicates.size(); k++)
+    // {
+    //     cout << k << endl;
+    // }
+
+
+
+
+
+
+//my code
+        int st = 0, en = nums.size() - 1;
+        vector<int> ans;
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] == target) {
+                ans.push_back(i);
+                break;
+            }
         }
+
+        for (int j = en; j > 0; j--) {
+            if (nums[j] == target) {
+                ans.push_back(j);
+                break;
+            }
+        }
+        if (nums.empty()) {
+            return {-1, -1};
+        }
+        if (ans.size() < 2) {
+            return {-1, -1};
+        }
+        return ans;
     }
-        cout << MS;
-}
